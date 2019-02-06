@@ -10,8 +10,7 @@
         <title>@yield('title', config('app.name', 'Laravel'))</title>
         <!-- Styles -->
         @mix('css/app.css')
-        <link rel="stylesheet" href="http://esironal.github.io/cmtouch/lib/codemirror.css">
-        <link rel="stylesheet" href="http://esironal.github.io/cmtouch/addon/hint/show-hint.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.43.0/codemirror.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.43.0/theme/monokai.min.css">
         <link rel="stylesheet"
               href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/default.min.css">
@@ -22,16 +21,9 @@
         <div class="container-fluid">
             @yield('body')
         </div>
-        <script src="http://esironal.github.io/cmtouch/lib/codemirror.js"></script>
-        <script src="http://esironal.github.io/cmtouch/addon/hint/show-hint.js"></script>
-        <script src="http://esironal.github.io/cmtouch/addon/hint/xml-hint.js"></script>
-        <script src="http://esironal.github.io/cmtouch/addon/hint/html-hint.js"></script>
-        <script src="http://esironal.github.io/cmtouch/mode/xml/xml.js"></script>
-        <script src="http://esironal.github.io/cmtouch/mode/javascript/javascript.js"></script>
-        <script src="http://esironal.github.io/cmtouch/mode/css/css.js"></script>
-        <script src="http://esironal.github.io/cmtouch/mode/htmlmixed/htmlmixed.js"></script>
-        <script src="http://esironal.github.io/cmtouch/addon/selection/active-line.js"></script>
-        <script src="http://esironal.github.io/cmtouch/addon/edit/matchbrackets.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.43.0/codemirror.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.43.0/addon/selection/active-line.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.43.0/addon/edit/matchbrackets.min.js"></script>
         <script src="https://codemirror.net/mode/ruby/ruby.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
